@@ -27,6 +27,7 @@ Option 2 (option I selected as my VS Code wasn't working locally):
 1) Open a bash terminal
 2) Write `python3 -m venv venv` to create the virtual environment
 3) Write `source venv/bin/activate` to activate it (your terminal path should now show `(venv)` to confirm that it is activated)
+4) Create a .gitignore file and add the virtual environment to it so that you don't commit the virtual environment to github
 
 # 6) Create requirements.txt file and install required packages
 1) In your terminal, write `touch requirements.txt` to create the file
